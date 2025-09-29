@@ -1,67 +1,35 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0f0c29;
-  color: #fff;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    text-align:center;
 }
-
-.container h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #00fff0;
-  text-shadow: 0 0 10px #00fff0;
-}
-
-#level-title {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.btn-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
 .btn {
-  border-radius: 20px;
-  border: 4px solid #fff;
-  cursor: pointer;
-  transition: all 0.2s;
-  box-shadow: 0 0 20px #fff;
-  color: #fff;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
+    height:200px;
+    width:200px;
+    border-radius: 20%;
+    border:10px solid black; 
+    margin:2.5rem;
+}
+.btn-container {
+    display:flex; 
+    justify-content: center;
 }
 
-/* Unequal sizes */
-.red { background: #ff0054; width: 120px; height: 120px; box-shadow: 0 0 20px #ff0054; }
-.yellow { background: #ffeb3b; width: 160px; height: 160px; box-shadow: 0 0 20px #ffeb3b; color: #000; }
-.green { background: #00ff88; width: 140px; height: 140px; box-shadow: 0 0 20px #00ff88; }
-.blue { background: #2196f3; width: 180px; height: 180px; box-shadow: 0 0 20px #2196f3; }
-.purple { background: #9c27b0; width: 130px; height: 130px; box-shadow: 0 0 20px #9c27b0; }
-
-.btn:active {
-  transform: scale(0.9);
-  filter: brightness(1.5);
+.yellow {
+    background-color: #f99b45;
+}
+.red {
+    background-color: #d95980;
+}
+.purple {
+    background-color: #819ff9;
+}
+.green {
+    background-color: #63aac0;
 }
 
 .flash {
-  filter: brightness(2);
+    background-color: white;
 }
 
-#score {
-  font-size: 1.2rem;
-  margin-top: 10px;
+.userflash {
+    background-color: green;
 }
